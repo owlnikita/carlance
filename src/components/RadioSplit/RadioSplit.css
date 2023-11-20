@@ -1,0 +1,59 @@
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:not(:disabled) ~ label {
+    cursor: pointer;
+}
+
+.radioSplit-box{
+    position: relative;
+    width: 246px;
+    margin-top: 12px;
+}
+
+.radioSplit__items{
+    display: flex;
+    width: 100%;
+}
+
+.radioSplit__item{
+    width: 100%;
+    background-color: #fff;
+    border: #CFCFCF 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.radioSplit__text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#right-part{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#left-part{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right-width: 0px;
+}
+
+
+
+.radioSplit__text{
+    color: #D10000;
+    font-size: 14px;
+}
+
+.radioSplit__item input[type="radio"]:checked + label {
+    background: #D10000;
+    color: white;
+}

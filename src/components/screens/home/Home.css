@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald&display=swap&family=Glory:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+@font-face {
+    font-family: 'JejuGothic';
+    src: url('../../../fonts/JejuGothic-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+    color: #fff;
+}
+
+.header{
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 87px;
+}
+
+.container{
+
+    padding: 0px 340px ;
+    position: relative;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.navItems{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.navItem:last-child{
+    margin: 0;
+}
+
+.button{
+    background-color: #D10000;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 12px 32px;
+}
+
+.button span{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+}
+
+.navItemFlex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.txtHLight{
+    color: #D10000;
+}
+
+.title{
+    font-family: JejuGothic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.08px;
+}
+
+.subTitle{
+    font-family: 'Inria Serif', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main{
+    margin-top: 165px;
+}
+
+.emailForm{
+    display: flex;
+}
+
+.boxElems{
+    font-family: 'Glory', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    color: #000;
+    max-width: 715px;
+    align-items: center;
+
+}
+
+.carTitle{
+    font-weight: 600;
+    max-width: 715px;
+    line-height: 120%;
+    color: #313131;
+}
+
+.carLowTitle{
+    font-size: 32px;
+    color: #313131;
+    margin-top: 38px;
+    font-weight: 500;
+}
+
+.boldText{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 70px;
+    color: #313131;
+}
+
+.carImg{
+    display: flex;
+    position: relative;
+    z-index: -1;
+    right: 40px;
+    top: 0;
+}
+
+.teset{
+    margin-top: 300px;
+}
+
+
+
+
